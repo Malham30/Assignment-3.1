@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(7, 220, 185);
+    color: rgb(210, 5, 5)
+}
+
+Nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+header {
+    text-align: center;
+}

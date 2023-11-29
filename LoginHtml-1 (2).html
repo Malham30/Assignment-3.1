@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--Jamal Hamilton-->
+<!--Theese nest two lines are calling both the css and java files-->
+<script src ="LoginFunct-1 (2).js"></script>
+<link href = "StringStyle.css" rel ="stylesheet" type = "text/css" />
+
+<head>
+    <!--This is giving the tab name a title-->
+    <title>Input Validation</title>
+    
+</head>
+<body> 
+    <header>
+    <h1>
+        <!--This centers the welcome to login-->
+         <center>
+             WELCOME TO THE UAT LOGIN!
+         </center><br>
+        
+    </h1>
+</header>
+<nav> 
+    <h2>
+        Navigation
+    </h2>
+    <a href="./index.html">Home</a><br>
+    <a href="./Boards.html">Boards</a><br>
+    <a href="./craps.html">Craps</a><br>
+    <a href="./LoginHtml-1 (2).html">Strings</a><br>
+    <a href="./BackgroundNoise (1).html">Noise</a><br>
+    
+
+</nav>
+    <br>
+    <!--this adds an imagine to the html file-->
+<div id ="Login">Please Login</div>
+    <br>
+    <!--these next lines calls all the functions that are in the java script file and allows the user to input the necessary info-->
+    <form id = "LoginSubmit" onsubmit="return false" >
+            First Name <input type="text" id = "First" /> <br>
+            Last Name <input type="text" id = "Last" /> <br>
+            Zip Code <input type="text" id ="Zip" /> <br>
+            <input type="submit" onclick= "CheckLogin();"/>
+    </form>
+    <br>
+    <br>
+    <h2>Palidrome Checker</h2>
+    <br>
+    <div id="palinStatus"> Palidrome Status</div>
+    <br>
+    <form id="palinSubmit" onsubmit="return false">
+        Enter Possible Palidrome: <input type="text" id="palinInput"><br>
+        <br>
+        <input type="Submit" onclick="checkPalin();">
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>University of Advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        Main Telephone: 602-383-8228<br>
+        Out of State: 877-UAT-GEEK (877-828-4335)<br>
+    </footer>
+</body>
+</html>
